@@ -5,22 +5,57 @@ body {
 }
 
 .App {
-  text-align: center;
+  /*text-align: center;*/
 }
 
-.Jumbotron {
-  /*background-image: url('https://images.unsplash.com/photo-1468426925765-90c3a7b9e7c8?w=1352&ixid=dW5zcGxhc2guY29tOzs7Ozs%3D');*/
-  /*background-size: 100%;*/
-  /*background-repeat: no-repeat;*/
-  /*color: white;*/
+.Header, .About, .Footer {
+  border: 1px solid black;
+  margin: 5px 0px;
 }
 
+.container {
+  position: relative;
+  top: 0px;
+  left: 0px;
+  padding: 30px;
+  z-index: 2;
+  margin: 0 auto;
+  display: block;
+  background-image: url('https://images.unsplash.com/photo-1487086877694-1106c940917a?w=2555&ixid=dW5zcGxhc2guY29tOzs7Ozs%3D');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+  min-height: 850px;
+  min-width: 1200px;
+}
+
+.Navbar {
+  background-color: lightgray;
+  color: black;
+  /*padding: 50px;*/
+}
+
+.Navbar img {
+  padding-left: 50px;
+}
+
+.logo {
+  height: 31px;
+  border-radius: 6px;
+  margin: 16px 24px 16px 0;
+  float: left;
+}
+
+/*.CollapsibleItem {
+  margin: 50px;
+}*/
+/*
 .App-logo {
-  /*animation: App-logo-spin infinite 20s linear;*/
-/*  width: 20%;
-  display: inline-block;*/
-}
-
+  animation: App-logo-spin infinite 20s linear;
+  width: 20%;
+  display: inline-block;
+}*/
+/*
 .App-header {
   background-color: #222;
   height: 150px;
@@ -34,7 +69,7 @@ body {
 
 .App-intro {
   font-size: large;
-}
+}*/
 
 .Footer {
   background: gray; 
