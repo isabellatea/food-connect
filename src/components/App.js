@@ -14,8 +14,8 @@ class App extends Component {
 
         <div className="container">
         
-          <header className='Header'>
-            Header Here
+          <header className='getStarted'>
+            Get Started
           </header>
           <section className='About'>
             About Here
