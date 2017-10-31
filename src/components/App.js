@@ -22,11 +22,11 @@ class App extends Component {
             <Button type="primary">Button</Button>
           </section>
 
+
+        </div>
           <footer className='Footer'>
             Footer Here
           </footer>
-
-        </div>
       </div>
     );
   }

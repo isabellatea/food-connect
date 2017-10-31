@@ -8,7 +8,7 @@ body {
   /*text-align: center;*/
 }
 
-.getStarted, .About, .Footer {
+.getStarted, .About {
   border: 1px solid black;
   margin: 5px 0px;
 }
@@ -72,6 +72,7 @@ body {
 }*/
 
 .Footer {
+  
   background: gray; 
   /*background: #000 url(image.gif) no-repeat top left fixed;;*/
 }
