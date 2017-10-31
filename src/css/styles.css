@@ -5,7 +5,7 @@ body {
 }
 
 .App {
-  /*text-align: center;*/
+
 }
 
 .getStarted, .About {
@@ -72,7 +72,7 @@ body {
 }*/
 
 .Footer {
-  
+
   background: gray; 
   /*background: #000 url(image.gif) no-repeat top left fixed;;*/
 }
